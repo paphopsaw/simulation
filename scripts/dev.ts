@@ -1,3 +1,4 @@
+/// <reference lib="deno.ns" />
 import * as esbuild from "https://deno.land/x/esbuild@v0.25.4/mod.js";
 import * as _ from "../mod.ts"; // This is for watching the file
 import { serveDir, serveFile } from "jsr:@std/http/file-server";

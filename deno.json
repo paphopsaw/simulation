@@ -2,6 +2,9 @@
   "name": "module-template",
   "version": "0.1.0",
   "exports": "./mod.ts",
+  "compilerOptions": {
+    "lib": ["ES2017", "DOM"]
+  },
   "tasks": {
     "test": "deno test --watch",
     "build": "deno run --allow-env --allow-read --allow-write --allow-net --allow-run scripts/build.ts",
