@@ -1,0 +1,14 @@
+{
+  "name": "module-template",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "test": "deno test --watch",
+    "build": "deno run --allow-env --allow-read --allow-write --allow-net --allow-run scripts/build.ts",
+    "start": "deno run --watch --allow-env --allow-read --allow-write --allow-net --allow-run scripts/dev.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
